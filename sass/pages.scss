@@ -49,6 +49,42 @@ body {
   width:73%;
 } 
 
+
+.cta-button {
+  a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    width: 96%;
+    margin-left:2%;
+    line-height:42px;
+    border-radius:3px;
+  }
+  background: repeat url('../images/black-semi.png');
+  border-radius: 3px;
+  width:100%;
+  padding: 5px 0;
+  margin-bottom:1em;
+  &.team a {
+    background:#0096ff;
+  }
+
+  &.volunteer a {
+    background:#099802;
+  }
+  :hover {
+    opacity:0.8;
+  }
+}
+  
+.front {
+  #page-title {
+    display:none;
+  }
+}
+
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
@@ -132,6 +168,7 @@ body {
  */
 
 #content {
+  font-size:0.9em;
 }
 
 .region-highlighted {

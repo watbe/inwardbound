@@ -52,15 +52,53 @@ body {
   width: 73%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000353}}
+.cta-button {
+  background: repeat url("../images/black-semi.png");
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px 0;
+  margin-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000354}}
+.cta-button a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  width: 96%;
+  margin-left: 2%;
+  line-height: 42px;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000370}}
+.cta-button.team a {
+  background: #0096ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000374}}
+.cta-button.volunteer a {
+  background: #099802;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000377}}
+.cta-button :hover {
+  opacity: 0.8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000383}}
+.front #page-title {
+  display: none;
+}
+
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000393}}
 #skip-link {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000397}}
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -74,7 +112,7 @@ body {
 /*
  * Header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003114}}
 #logo {
   /* Wrapping link for logo */
   padding: 0 0 1em 0.7em;
@@ -82,48 +120,48 @@ body {
   display: block;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003120}}
 #logo img {
   vertical-align: bottom;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003124}}
 #logo :hover {
   opacity: 0.8;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003129}}
 #name-and-slogan {
   /* Wrapper for website name and slogan */
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003133}}
 #site-name {
   /* The name of the website */
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003139}}
 #site-name a:link,
 #site-name a:visited {
   color: #000;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003145}}
 #site-name a:hover,
 #site-name a:focus {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003150}}
 #site-slogan {
   /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003155}}
 .region-header {
   /* Wrapper for any blocks placed in the header region */
   clear: both;
@@ -136,16 +174,21 @@ body {
 /*
  * Content
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003170}}
+#content {
+  font-size: 0.9em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003177}}
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003178}}
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003182}}
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -153,7 +196,7 @@ body {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003195}}
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -164,37 +207,37 @@ h3.title {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003199}}
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003203}}
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003207}}
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003210}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003216}}
 div.status {
   /* Normal priority messages */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003220}}
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -202,82 +245,82 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003225}}
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003228}}
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003232}}
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003236}}
 .tabs {
   /* See also the tabs.css file. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003239}}
 .region-help {
   /* Help text on a page */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003242}}
 .more-help-link {
   /* Link to more help */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003245}}
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003248}}
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003252}}
 ul.inline li {
   display: inline;
   list-style-type: none;
   padding: 0 1em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003258}}
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003262}}
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003265}}
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003270}}
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003273}}
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -300,7 +343,7 @@ span.field-label {
 /*
  * Page bottom
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/pages\.scss}line{font-family:\00003307}}
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }

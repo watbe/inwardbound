@@ -44,23 +44,37 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000342}}
+input.form-text, textarea {
+  background: url("../images/black-semi.png");
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000349}}
+.resizable-textarea .grippie {
+  border: none;
+  background-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000354}}
 .form-submit {
   /* The submit button */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000359}}
 .container-inline div,
 .container-inline label {
   /* Inline labels and form divs */
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000364}}
 .tips {
   /* Tips for Drupal's input formats */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000367}}
 a.button {
   /* Buttons used by contrib modules like Media */
   -moz-appearance: button;
@@ -71,7 +85,7 @@ a.button {
 /*
  * Password confirmation
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000376}}
 .password-parent,
 .confirm-parent {
   margin: 0;
@@ -80,7 +94,7 @@ a.button {
 /*
  * Search (search-block-form.tpl.php)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000384}}
 #block-search-form {
   /* Wrapper for the search form */
   clear: both;
@@ -89,7 +103,7 @@ a.button {
 /*
  * Drupal's default login form block
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000392}}
 #user-login-form {
   text-align: left;
   /*
@@ -99,13 +113,13 @@ a.button {
    * styling of list items.
    */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003102}}
 #user-login-form ul {
   /* OpenID creates a new ul above the login form's links. */
   margin-bottom: 0;
   /* Position OpenID's ul next to the rest of the links. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003107}}
 html.js #user-login-form li.openid-link,
 #user-login-form li.openid-link {
   /* The "Log in using OpenID" link. */
@@ -113,13 +127,13 @@ html.js #user-login-form li.openid-link,
   margin-left: -20px;
   /* Un-do some of the padding on the ul list. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003112}}
 #user-login-form li.user-link {
   /* The "Cancel OpenID login" link. */
   margin-top: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003117}}
 #user-login ul {
   margin: 1.5em 0;
 }
@@ -130,21 +144,21 @@ html.js #user-login-form li.openid-link,
  * We overrode these styles in normalize.css, but restore them for the admin
  * section of the site.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003129}}
 form th {
   text-align: left;
   padding-right: 1em;
   border-bottom: 3px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003135}}
 form tbody {
   border-top: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003139}}
 form tr.even {
   background-color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003143}}
 form table .item-list ul {
   margin: 0;
 }
@@ -152,7 +166,7 @@ form table .item-list ul {
 /*
  * Drupal core wrongly puts this in system.menus.css. Since we override that, add it back.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7\.17\/sites\/ib\.lab273\.com\/themes\/ib\/sass\/forms\.scss}line{font-family:\00003162}}
 td.menu-disabled {
   background: #ccc;
 }

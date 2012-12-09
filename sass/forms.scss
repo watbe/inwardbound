@@ -39,6 +39,18 @@
   }
 }
 
+input.form-text, textarea {
+  background: url('../images/black-semi.png');
+  border:none;
+  color:white;
+  padding: 10px;
+}
+
+.resizable-textarea .grippie {
+  border:none;
+  background-color:transparent;
+}
+
 .form-submit { /* The submit button */
 }
 
