@@ -7,12 +7,14 @@
 
 
 .block { /* Block wrapper */
-  margin-bottom: 1.5em;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
+  padding: 1em 0.3em;
 
   &.first { /* The first block in the region */
   }
 
   &.last { /* The last block in the region */
+    margin-bottom:2em;
   }
 
   &.odd { /* Zebra striping for each block in the region */
@@ -22,6 +24,10 @@
   }
 
   h2.block-title { /* Block title */
+    font-weight:normal;
+  }
+  p {
+    margin:0;
   }
 }
 

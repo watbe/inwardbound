@@ -67,8 +67,22 @@ li a.active {
       padding: 0 10px 0 0;
       list-style-type: none;
       list-style-image: none;
+      a {
+          padding:1em;
+    color: black;
+    display: block;
+    font-size: 21px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+        }
+
+        a:hover, a.active {
+          color:white;
+        }
+        
     }
   }
+  
 }
 
 .region-navigation {

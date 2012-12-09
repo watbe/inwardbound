@@ -13,14 +13,41 @@
 /*
  * Body
  */
+a {
+  color:#f0b648;
+}
 
 body {
   margin: 0;
   padding: 0;
+  background: url('../images/ib-bg.jpg') 50% 0 fixed;
 }
 
-#page {
+#content, .region-sidebar-second {
+  background: url('../images/black-semi.png');
+  color:white;
 }
+
+#content table {
+  color:black;
+}
+
+#page #content {
+  margin-top:1.6em;
+  width:73%;
+}
+
+#main .region-sidebar-second {
+  max-width:300px;
+  width:25%;
+  margin-top: -3em;
+  margin-left: 75%;
+}
+
+#navigation {
+  background: url('../images/white-semi.png');
+  width:73%;
+} 
 
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
@@ -49,12 +76,17 @@ body {
 }
 
 #logo { /* Wrapping link for logo */
-  float: left;
-  margin: 0;
-  padding: 0;
+  padding: 0 0 1em 0.7em;
+  margin:0;
+  display:block;
+  height: auto;
 
   img {
     vertical-align: bottom;
+  }
+
+  :hover {
+    opacity:0.8;
   }
 }
 
